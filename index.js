@@ -18,7 +18,7 @@ app.get("/",(req,res)=>{
     res.send("Home Page")
 })
 
-app.listen(process.env.port,async()=>{
+app.listen(4000,async()=>{
     try{
         await connection
         console.log("Successful connected to db ");
